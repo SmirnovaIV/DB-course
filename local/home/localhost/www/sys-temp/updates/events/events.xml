@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1396107210</timestamp>
+      <rfc>Sat, 29 Mar 2014 18:33:30 +0300</rfc>
+      <utc>2014-03-29T18:33:30+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/events" val="events"/>
+    <key path="modules/events/name" val="events"/>
+    <key path="modules/events/title" val="Events"/>
+    <key path="modules/events/description" val="Events"/>
+    <key path="modules/events/filename" val="modules/events/class.php"/>
+    <key path="modules/events/config" val="1" update="1"/>
+    <key path="modules/events/ico" val="ico_events"/>
+    <key path="modules/events/default_method" val="getUserSettings" update="1"/>
+    <key path="modules/events/default_method_admin" val="last" update="1"/>
+    <key path="modules/events/func_perms" val="Functions, that should have their own permissions."/>
+    <key path="modules/events/func_perms/events" val="Events"/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/events" name="events">/classes/modules/events</directory>
+    <directory path="./styles/skins/mac/data/modules/events" name="events">/styles/skins/mac/data/modules/events</directory>
+  </directories>
+  <files>
+    <file path="./classes/modules/events/__events_handlers.php" size="8818" ext="php" hash="a9aef41569332bc56251d50b9d77de2b" name="__events_handlers.php">/classes/modules/events/__events_handlers.php</file>
+    <file path="./classes/modules/events/custom_events.php" size="10" ext="php" hash="14e24a38b5ee0bac2396cd0dbf288060" name="custom_events.php">/classes/modules/events/custom_events.php</file>
+    <file path="./classes/modules/events/events.php" size="1387" ext="php" hash="e061ad5fd7d7b78fd8a7f3911d5356b6" name="events.php">/classes/modules/events/events.php</file>
+    <file path="./classes/modules/events/i18n.en.php" size="4186" ext="php" hash="0f39129f8eafa6fd2eba98062e9cac60" name="i18n.en.php" only_install="true">/classes/modules/events/i18n.en.php</file>
+    <file path="./classes/modules/events/lang.php" size="168" ext="php" hash="26b56d46fdb8277a5b7be0339df73972" name="lang.php">/classes/modules/events/lang.php</file>
+    <file path="./classes/modules/events/__custom_adm.php" size="108" ext="php" hash="cfb2f6290aa40a1fe9afc8ca8b040c65" name="__custom_adm.php" only_install="true">/classes/modules/events/__custom_adm.php</file>
+    <file path="./classes/modules/events/class.php" size="3832" ext="php" hash="26de7137247360e494c60e80cf4ac4c6" name="class.php">/classes/modules/events/class.php</file>
+    <file path="./classes/modules/events/permissions.php" size="155" ext="php" hash="110b930050ae2ce7aaea4b9bb8ea7d6e" name="permissions.php">/classes/modules/events/permissions.php</file>
+    <file path="./classes/modules/events/__admin.php" size="7033" ext="php" hash="f005d4aa5b188a8b8a2fcba74edf25f5" name="__admin.php">/classes/modules/events/__admin.php</file>
+    <file path="./classes/modules/events/__custom.php" size="84" ext="php" hash="012ef4964721353a64a2446e1614d535" name="__custom.php" only_install="true">/classes/modules/events/__custom.php</file>
+    <file path="./classes/modules/events/install.php" size="770" ext="php" hash="48988061aba037784725049e06189d3f" name="install.php">/classes/modules/events/install.php</file>
+    <file path="./classes/modules/events/i18n.php" size="5481" ext="php" hash="a6ed94fc975542b86c1bfb17c3fdef27" name="i18n.php">/classes/modules/events/i18n.php</file>
+    <file path="./styles/skins/mac/data/modules/events/settings.view.xsl" size="5969" ext="xsl" hash="326855d6a6e270b089937239c8c3886c" name="settings.view.xsl">/styles/skins/mac/data/modules/events/settings.view.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types/>
+  <objects/>
+  <pages/>
+  <relations/>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+</umidump>

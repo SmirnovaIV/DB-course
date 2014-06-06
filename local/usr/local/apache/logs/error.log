@@ -1,0 +1,10 @@
+[Wed May 28 14:14:51 2014] [notice] Apache/2.2.4 (Win32) mod_ssl/2.2.4 OpenSSL/0.9.8k PHP/5.2.12 configured -- resuming normal operations
+[Wed May 28 14:14:51 2014] [notice] Server built: Jan  9 2007 23:17:20
+[Wed May 28 14:14:51 2014] [notice] Parent: Created child process 3796
+[Wed May 28 14:14:51 2014] [notice] Disabled use of AcceptEx() WinSock2 API
+[Wed May 28 14:14:53 2014] [notice] Child 3796: Child process is running
+[Wed May 28 14:14:53 2014] [notice] Child 3796: Acquired the start mutex.
+[Wed May 28 14:14:53 2014] [notice] Child 3796: Starting 25 worker threads.
+[Wed May 28 14:14:53 2014] [notice] Child 3796: Listening on port 443.
+[Wed May 28 14:14:53 2014] [notice] Child 3796: Listening on port 80.
+[Thu May 29 00:44:40 2014] [notice] Parent: child process exited with status 1073807364 -- Restarting.

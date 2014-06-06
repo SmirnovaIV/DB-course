@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1396107208</timestamp>
+      <rfc>Sat, 29 Mar 2014 18:33:28 +0300</rfc>
+      <utc>2014-03-29T18:33:28+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/seo" val="seo"/>
+    <key path="modules/seo/name" val="seo"/>
+    <key path="modules/seo/filename" val="modules/seo/class.php"/>
+    <key path="modules/seo/config" val="1" update="1"/>
+    <key path="modules/seo/default_method" val="show" update="1"/>
+    <key path="modules/seo/default_method_admin" val="seo" update="1"/>
+    <key path="modules/seo/func_perms" val="Functions, that should have their own permissions."/>
+    <key path="modules/seo/func_perms/seo" val="SEO-функции"/>
+    <key path="modules/seo/megaindex-login" val="megaindex@umisoft.ru"/>
+    <key path="modules/seo/megaindex-password" val="et676e5rj"/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/seo" name="seo">/classes/modules/seo</directory>
+    <directory path="./styles/skins/mac/data/modules/seo" name="seo">/styles/skins/mac/data/modules/seo</directory>
+  </directories>
+  <files>
+    <file path="./classes/modules/seo/i18n.en.php" size="11883" ext="php" hash="2851b53f2503687e05e2879ffc607ea0" name="i18n.en.php" only_install="true">/classes/modules/seo/i18n.en.php</file>
+    <file path="./classes/modules/seo/lang.php" size="156" ext="php" hash="bef81a65aba8c590e643c7956f7f702d" name="lang.php">/classes/modules/seo/lang.php</file>
+    <file path="./classes/modules/seo/__custom_adm.php" size="105" ext="php" hash="90632cfda186492e127037e1a42b5877" name="__custom_adm.php" only_install="true">/classes/modules/seo/__custom_adm.php</file>
+    <file path="./classes/modules/seo/.htaccess" size="0" ext="htaccess" hash="d41d8cd98f00b204e9800998ecf8427e" name=".htaccess">/classes/modules/seo/.htaccess</file>
+    <file path="./classes/modules/seo/__yandex.php" size="9835" ext="php" hash="bd51aa10c31031f4f5b2fdfb21bbf288" name="__yandex.php">/classes/modules/seo/__yandex.php</file>
+    <file path="./classes/modules/seo/class.php" size="1166" ext="php" hash="d4732b34f6400739e87c16988715186d" name="class.php">/classes/modules/seo/class.php</file>
+    <file path="./classes/modules/seo/permissions.php" size="68" ext="php" hash="c1eaef03d3e180cf5ec4547c28555083" name="permissions.php">/classes/modules/seo/permissions.php</file>
+    <file path="./classes/modules/seo/__admin.php" size="11818" ext="php" hash="a27df440723056627a7d850a28002b23" name="__admin.php">/classes/modules/seo/__admin.php</file>
+    <file path="./classes/modules/seo/__yandex_islands_admin.php" size="20910" ext="php" hash="33f3d2ec9966c72bbcc80e5475ed8253" name="__yandex_islands_admin.php">/classes/modules/seo/__yandex_islands_admin.php</file>
+    <file path="./classes/modules/seo/__custom.php" size="82" ext="php" hash="1e632d2e2bd3abbb128d86cce289cb0c" name="__custom.php" only_install="true">/classes/modules/seo/__custom.php</file>
+    <file path="./classes/modules/seo/install.php" size="849" ext="php" hash="f11f86af6a100d609051e3bc7bb72e19" name="install.php">/classes/modules/seo/install.php</file>
+    <file path="./classes/modules/seo/i18n.php" size="16013" ext="php" hash="d36a789c2893bd26ea585c7ba787b70e" name="i18n.php">/classes/modules/seo/i18n.php</file>
+    <file path="./styles/skins/mac/data/modules/seo/settings.modify.xsl" size="4009" ext="xsl" hash="3cac897c1e53c2fbb37efd778c50062f" name="settings.modify.xsl">/styles/skins/mac/data/modules/seo/settings.modify.xsl</file>
+    <file path="./styles/skins/mac/data/modules/seo/list.view.xsl" size="2118" ext="xsl" hash="cd07bd3ced70005451fcb5c888f7f4f3" name="list.view.xsl">/styles/skins/mac/data/modules/seo/list.view.xsl</file>
+    <file path="./styles/skins/mac/data/modules/seo/settings.view.xsl" size="26939" ext="xsl" hash="f03fef678012284149a8351072e6c9d8" name="settings.view.xsl">/styles/skins/mac/data/modules/seo/settings.view.xsl</file>
+    <file path="./styles/skins/mac/data/modules/seo/form.modify.xsl" size="6059" ext="xsl" hash="acf1a8f6f652eefb8218831752a78733" name="form.modify.xsl">/styles/skins/mac/data/modules/seo/form.modify.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types>
+    <type id="836" guid="seo-yandex-island-types" title="Типы Яндекс.Островов" parent-id="0" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="common" title="Основные настройки" locked="locked" active="active" visible="0">
+          <field id="9437" name="island_island_type" title="Строковый идентификатор типа" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="835" guid="seo-yandex-island" title="Яндекс.Остров" parent-id="0" locked="locked">
+      <base module="seo" method="yandex_island">SEO: Яндекс.Остров</base>
+      <fieldgroups>
+        <group name="common" title="Основные настройки" locked="locked" active="active" visible="0">
+          <field id="9429" name="island_metrika_id" title="Идентификатор счетчика Яндекс.Метрики" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="9430" name="island_title" title="Название острова в Яндексе" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9431" name="island_domain_id" title="Домен системы" visible="visible" locked="locked">
+            <restriction id="4" name="systemDomain">Домен системы</restriction>
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="9432" name="island_description" title="Описание острова в Яндексе" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9433" name="island_type" title="Тип острова" visible="visible" locked="locked" guide-id="836">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9434" name="island_tree_link" title="Адрес страницы" visible="visible" locked="locked">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+          <field id="9436" name="island_user_fields" title="Настройки полей острова" visible="visible" locked="locked">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="9435" name="island_url_link" title="Адрес страницы" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+  </types>
+  <objects/>
+  <pages/>
+  <relations>
+    <relation type-id="835" field-name="island_type">
+      <guide id="836"/>
+    </relation>
+  </relations>
+  <options/>
+  <restrictions>
+    <restriction id="4" prefix="systemDomain" title="Домен системы" field-type="int" is-multiple="">
+      <field field-name="island_domain_id" type-id="835"/>
+    </restriction>
+  </restrictions>
+  <permissions/>
+  <hierarchy/>
+</umidump>

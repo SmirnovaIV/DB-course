@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1396107210</timestamp>
+      <rfc>Sat, 29 Mar 2014 18:33:30 +0300</rfc>
+      <utc>2014-03-29T18:33:30+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/menu" val="menu"/>
+    <key path="modules/menu/name" val="menu"/>
+    <key path="modules/menu/filename" val="modules/menu/class.php"/>
+    <key path="modules/menu/config" val="0" update="1"/>
+    <key path="modules/menu/ico" val="ico_menu"/>
+    <key path="modules/menu/default_method" val="show" update="1"/>
+    <key path="modules/menu/default_method_admin" val="lists" update="1"/>
+    <key path="modules/menu/is_indexed" val="1"/>
+    <key path="modules/menu/per_page" val="10"/>
+    <key path="modules/menu/func_perms" val=""/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/menu" name="menu">/classes/modules/menu</directory>
+    <directory path="./styles/skins/mac/data/modules/menu" name="menu">/styles/skins/mac/data/modules/menu</directory>
+  </directories>
+  <files>
+    <file path="./classes/modules/menu/events.php" size="326" ext="php" hash="1e26954ce163497015ef4fb3ad5704d0" name="events.php">/classes/modules/menu/events.php</file>
+    <file path="./classes/modules/menu/i18n.en.php" size="1487" ext="php" hash="9884d83f168a4178aaaf3e69c26af6d3" name="i18n.en.php" only_install="true">/classes/modules/menu/i18n.en.php</file>
+    <file path="./classes/modules/menu/lang.php" size="94" ext="php" hash="cccb5f33e96a7e2f0dc011df2f3b66d8" name="lang.php">/classes/modules/menu/lang.php</file>
+    <file path="./classes/modules/menu/__events.php" size="1304" ext="php" hash="736d24162ff1a4ab9bf248d738157bb7" name="__events.php">/classes/modules/menu/__events.php</file>
+    <file path="./classes/modules/menu/class.php" size="10646" ext="php" hash="eed5d666320ed7484e445bc4be75fe9e" name="class.php">/classes/modules/menu/class.php</file>
+    <file path="./classes/modules/menu/permissions.php" size="157" ext="php" hash="8a2a3757300710d4fb61b951ef4fb1bc" name="permissions.php">/classes/modules/menu/permissions.php</file>
+    <file path="./classes/modules/menu/__admin.php" size="5792" ext="php" hash="4db5f17deb5b5d43da4df9637ec14815" name="__admin.php">/classes/modules/menu/__admin.php</file>
+    <file path="./classes/modules/menu/install.php" size="3353" ext="php" hash="23c4467e206b50347d6d6fd3aa1c4c7d" name="install.php">/classes/modules/menu/install.php</file>
+    <file path="./classes/modules/menu/i18n.php" size="1986" ext="php" hash="c8db45a85b4b34c0236668e914a1f52e" name="i18n.php">/classes/modules/menu/i18n.php</file>
+    <file path="./styles/skins/mac/data/modules/menu/style.css" size="5524" ext="css" hash="5cfca6ddcf0ea6a4cae64ee6c2fd4fee" name="style.css">/styles/skins/mac/data/modules/menu/style.css</file>
+    <file path="./styles/skins/mac/data/modules/menu/tree.js" size="4642" ext="js" hash="2517178f611d6592f4a546c0693ef0a4" name="tree.js">/styles/skins/mac/data/modules/menu/tree.js</file>
+    <file path="./styles/skins/mac/data/modules/menu/list.view.xsl" size="689" ext="xsl" hash="029ba791f463304d7aac4ead48d47cbc" name="list.view.xsl">/styles/skins/mac/data/modules/menu/list.view.xsl</file>
+    <file path="./styles/skins/mac/data/modules/menu/nestable.css" size="5353" ext="css" hash="089358fe5c6f6d99e07f4427edb24706" name="nestable.css">/styles/skins/mac/data/modules/menu/nestable.css</file>
+    <file path="./styles/skins/mac/data/modules/menu/menu.js" size="6755" ext="js" hash="f6f8d43c40f3e7c1dea8428f24599da2" name="menu.js">/styles/skins/mac/data/modules/menu/menu.js</file>
+    <file path="./styles/skins/mac/data/modules/menu/jquery.nestable.js" size="19240" ext="js" hash="a6b69ee813f7991f2ff82d22529d64c5" name="jquery.nestable.js">/styles/skins/mac/data/modules/menu/jquery.nestable.js</file>
+    <file path="./styles/skins/mac/data/modules/menu/form.modify.xsl" size="6834" ext="xsl" hash="6bcfb0b0886ca5fa53f7e22c81d0c9b7" name="form.modify.xsl">/styles/skins/mac/data/modules/menu/form.modify.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types>
+    <type id="839" guid="menu-menu" title="Меню" parent-id="0">
+      <base module="menu" method="item_element">Меню</base>
+      <fieldgroups>
+        <group name="common" title="Основные" visible="visible" active="active">
+          <field id="9449" name="menu_id" title="Идентификатор" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9448" name="menuhierarchy" title="Структура меню" visible="visible">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+  </types>
+  <objects/>
+  <pages/>
+  <relations/>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+</umidump>

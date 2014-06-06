@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1396107205</timestamp>
+      <rfc>Sat, 29 Mar 2014 18:33:25 +0300</rfc>
+      <utc>2014-03-29T18:33:25+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/vote" val="vote"/>
+    <key path="modules/vote/name" val="vote"/>
+    <key path="modules/vote/filename" val="modules/vote/class.php"/>
+    <key path="modules/vote/config" val="1" update="1"/>
+    <key path="modules/vote/default_method" val="insertlast" update="1"/>
+    <key path="modules/vote/default_method_admin" val="lists" update="1"/>
+    <key path="modules/vote/func_perms" val=""/>
+    <key path="modules/vote/func_perms/add_poll" val="Добавление опросов"/>
+    <key path="modules/vote/func_perms/edit_poll" val="Редактирование опросов"/>
+    <key path="modules/vote/func_perms/del_poll" val="Удаление опросов"/>
+    <key path="modules/vote/func_perms/poll" val="Просмотр"/>
+    <key path="modules/vote/func_perms/post" val="Голосование"/>
+    <key path="modules/vote/func_perms/publish" val="Возможность публикации"/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/vote" name="vote">/classes/modules/vote</directory>
+    <directory path="./styles/skins/mac/data/modules/vote" name="vote">/styles/skins/mac/data/modules/vote</directory>
+  </directories>
+  <files>
+    <file path="./classes/modules/vote/__events_handlers.php" size="1269" ext="php" hash="59b136339b476e5887dcf7e0f58b8c5b" name="__events_handlers.php">/classes/modules/vote/__events_handlers.php</file>
+    <file path="./classes/modules/vote/__rate.php" size="7920" ext="php" hash="33b6b9a8ea09236e66f650d74b6febe2" name="__rate.php">/classes/modules/vote/__rate.php</file>
+    <file path="./classes/modules/vote/update.php" size="1469" ext="php" hash="7566b40667430ffd52b9098dfb7b6cc8" name="update.php">/classes/modules/vote/update.php</file>
+    <file path="./classes/modules/vote/events.php" size="123" ext="php" hash="2b659e167d016433110df458d9389e2a" name="events.php">/classes/modules/vote/events.php</file>
+    <file path="./classes/modules/vote/i18n.en.php" size="872" ext="php" hash="3fac7f6771564f606769489264214895" name="i18n.en.php" only_install="true">/classes/modules/vote/i18n.en.php</file>
+    <file path="./classes/modules/vote/lang.php" size="1204" ext="php" hash="47e34e2d8cbfbe6526b02d7e01de3547" name="lang.php">/classes/modules/vote/lang.php</file>
+    <file path="./classes/modules/vote/__custom_adm.php" size="106" ext="php" hash="9ce0da7a5d4b973689da6df68af9cda9" name="__custom_adm.php" only_install="true">/classes/modules/vote/__custom_adm.php</file>
+    <file path="./classes/modules/vote/forms.php" size="13325" ext="php" hash="0e48bf54e46621e4889469e7ec3760bc" name="forms.php">/classes/modules/vote/forms.php</file>
+    <file path="./classes/modules/vote/class.php" size="11015" ext="php" hash="d86a578396b856eb1f701c4f4db8ebe6" name="class.php">/classes/modules/vote/class.php</file>
+    <file path="./classes/modules/vote/permissions.php" size="377" ext="php" hash="e1eb55b54d37b49e03b851987d290dbe" name="permissions.php">/classes/modules/vote/permissions.php</file>
+    <file path="./classes/modules/vote/__admin.php" size="7037" ext="php" hash="1200237866c51712a37f1eebce0974c3" name="__admin.php">/classes/modules/vote/__admin.php</file>
+    <file path="./classes/modules/vote/__custom.php" size="87" ext="php" hash="6ccf8ddd6126e5bfbd320ed4988e6c11" name="__custom.php" only_install="true">/classes/modules/vote/__custom.php</file>
+    <file path="./classes/modules/vote/install.php" size="1118" ext="php" hash="d58cecbe77df88fd9860bb734d8fc6d7" name="install.php">/classes/modules/vote/install.php</file>
+    <file path="./classes/modules/vote/i18n.php" size="1423" ext="php" hash="6a4b2a7c7eb873b3ffa602e0888b24ff" name="i18n.php">/classes/modules/vote/i18n.php</file>
+    <file path="./styles/skins/mac/data/modules/vote/list.view.xsl" size="1110" ext="xsl" hash="5a801aca05682a2867d8ca73a09baf6c" name="list.view.xsl">/styles/skins/mac/data/modules/vote/list.view.xsl</file>
+    <file path="./styles/skins/mac/data/modules/vote/form.modify.xsl" size="5683" ext="xsl" hash="d609c90be0a6aa457c1ef0cc4f74ecab" name="form.modify.xsl">/styles/skins/mac/data/modules/vote/form.modify.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types>
+    <type id="7" guid="root-guides-type" title="Справочники" parent-id="0" locked="locked">
+      <base/>
+      <fieldgroups/>
+    </type>
+    <type id="745" guid="de8627f75ba1abcfafd00a0e75ad189105cfdc21" title="Статус страницы" parent-id="7" guide="guide" public="public" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="svojstva_statusa_stranicy" title="Свойства статуса страницы" visible="visible" active="active">
+          <field id="9027" name="publish_status_id" title="id статуса" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="{root-pages-type}" guid="root-pages-type" title="Раздел сайта" parent-id="0" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="common" title="Общее" locked="locked" active="active" visible="0">
+          <field id="22" name="title" title="Поле TITLE" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="23" name="h1" title="Поле H1" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="26" name="content" title="Контент" visible="visible" locked="locked" indexable="indexable">
+            <type name="HTML-текст" data-type="wysiwyg"/>
+          </field>
+          <field id="25" name="meta_descriptions" title="Поле meta DESCRIPTIONS" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="24" name="meta_keywords" title="Поле meta KEYWORDS" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="8837" name="tags" title="Теги" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+        </group>
+        <group name="menu_view" title="Отображение в меню" locked="locked" active="active" visible="0">
+          <field id="27" name="menu_pic_ua" title="Изображение неактивного раздела" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+          <field id="28" name="menu_pic_a" title="Изображение активного раздела" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+          <field id="29" name="header_pic" title="Изображение для заголовка" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+        </group>
+        <group name="more_params" title="Дополнительные параметры" locked="locked" active="active" visible="0">
+          <field id="30" name="robots_deny" title="Запретить индексацию поисковиками" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="31" name="show_submenu" title="Показывать подменю" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="32" name="is_expanded" title="Меню всегда развернуто" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="33" name="is_unindexed" title="Исключить из поиска" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="rate_props" title="Свойства рейтинга" locked="locked" active="active" visible="0">
+          <field id="8903" name="rate_voters" title="Количество проголосовавших" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8904" name="rate_sum" title="Сумма баллов" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+        <group name="svojstva_publikacii" title="Актуальность публикации" visible="visible" locked="locked" active="0">
+          <field id="9024" name="expiration_date" title="Дата снятия с публикации" visible="visible" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9025" name="notification_date" title="Дата уведомления" visible="visible" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9026" name="publish_comments" title="Комментарий к публикации" visible="visible" locked="locked">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="9029" name="publish_status" title="Статус публикации" visible="visible" locked="locked" guide-id="745">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+        <group name="locks" title="Блокировка" visible="visible" locked="locked" active="active">
+          <field id="9030" name="locktime" title="Время блокировки" visible="visible" locked="locked" system="system">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9031" name="lockuser" title="Блокирующий пользователь" visible="visible" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="39" guid="vote-pollitem" title="Вариант ответа на опрос" parent-id="0" guide="guide" locked="locked">
+      <base module="vote" method="poll_item">Ответ в опросе</base>
+      <fieldgroups>
+        <group name="common_props" title="Общие свойства" visible="visible" locked="locked" active="active">
+          <field id="105" name="count" title="Количество ответов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8838" name="poll_rel" title="Указатель на опрос" locked="locked" guide-id="40">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="40" guid="vote-poll" title="Стандартный опрос" parent-id="{root-pages-type}" locked="locked">
+      <base module="vote" method="poll">Опрос</base>
+      <fieldgroups>
+        <group name="common" title="Общее" locked="locked" active="active" visible="0">
+          <field id="22" name="title" title="Поле TITLE" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="23" name="h1" title="Поле H1" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="24" name="meta_keywords" title="Поле meta KEYWORDS" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="25" name="meta_descriptions" title="Поле meta DESCRIPTIONS" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="8837" name="tags" title="Теги" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+        </group>
+        <group name="menu_view" title="Отображение в меню" locked="locked" active="active" visible="0">
+          <field id="27" name="menu_pic_ua" title="Изображение неактивного раздела" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+          <field id="28" name="menu_pic_a" title="Изображение активного раздела" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+          <field id="29" name="header_pic" title="Изображение для заголовка" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+        </group>
+        <group name="more_params" title="Дополнительные параметры" locked="locked" active="active" visible="0">
+          <field id="30" name="robots_deny" title="Запретить индексацию поисковиками" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="31" name="show_submenu" title="Показывать подменю" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="32" name="is_expanded" title="Меню всегда развернуто" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="33" name="is_unindexed" title="Исключить из поиска" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="poll_props" title="Свойства опроса" locked="locked" active="active" visible="0">
+          <field id="106" name="is_closed" title="Голосование закрыто" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="107" name="question" title="Вопрос" visible="visible" locked="locked" indexable="indexable">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="108" name="publish_time" title="Дата публикации" visible="visible" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="109" name="answers" title="Ответы" visible="visible" locked="locked" guide-id="39">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="110" name="total_count" title="Всего проголосовало" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+        <group name="rate_voters" title="Количество проголосовавших" locked="locked" active="active" visible="0">
+          <field id="8903" name="rate_voters" title="Количество проголосовавших" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8904" name="rate_sum" title="Сумма баллов" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+        <group name="svojstva_publikacii" title="Актуальность публикации" visible="visible" locked="locked" active="0">
+          <field id="9024" name="expiration_date" title="Дата снятия с публикации" visible="visible" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9025" name="notification_date" title="Дата уведомления" visible="visible" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9026" name="publish_comments" title="Комментарий к публикации" visible="visible" locked="locked">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="9029" name="publish_status" title="Статус публикации" visible="visible" locked="locked" guide-id="745">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+        <group name="locks" title="Блокировка" visible="visible" locked="locked" active="active">
+          <field id="9030" name="locktime" title="Время блокировки" visible="visible" locked="locked" system="system">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9031" name="lockuser" title="Блокирующий пользователь" visible="visible" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+  </types>
+  <objects/>
+  <pages/>
+  <relations>
+    <relation type-id="{root-pages-type}" field-name="publish_status">
+      <guide id="745"/>
+    </relation>
+    <relation type-id="39" field-name="poll_rel">
+      <guide id="40"/>
+    </relation>
+    <relation type-id="40" field-name="answers">
+      <guide id="39"/>
+    </relation>
+    <relation type-id="40" field-name="publish_status">
+      <guide id="745"/>
+    </relation>
+  </relations>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+</umidump>

@@ -1,0 +1,36 @@
+140515 15:40:36 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+140515 15:40:36  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+140515 15:40:37  InnoDB: Started; log sequence number 0 4263475
+140516 10:52:24 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+140516 10:52:24  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+140516 10:52:26  InnoDB: Started; log sequence number 0 4404377
+140516 12:27:37 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+140516 12:27:37  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+140516 12:27:37  InnoDB: Started; log sequence number 0 4527205
+140516 12:35:05 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+140516 12:35:05  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+140516 12:35:06  InnoDB: Started; log sequence number 0 4527254

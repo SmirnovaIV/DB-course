@@ -1,0 +1,125 @@
+[_COOKIE]
+	[user_captcha]
+	(string) u55k8n
+
+	[PHPSESSID]
+	(string) 381c3cfc65b9e07156e991e57da85400
+
+	[umicms_session]
+	(string) f4ce655440295067f66f6730bfb04bf5
+
+	[stat_id]
+	(string) 381c3cfc65b9e07156e991e57da85400
+
+	[ilang]
+	(string) ru
+
+
+[_SESSION]
+	[http_referer]
+	(NULL) 
+
+	[http_target]
+	(string) /
+
+	[user_id]
+	(integer) 2
+
+	[is_admin]
+	(array) ['', '']
+
+	[_umi_opaf_disabled_html]
+	(integer) 1
+
+	[old_logged_in_value]
+	(boolean) 1
+
+	[c9db569cb388e160e4b86ca1ddff84d7]
+	(array) ['['content', 'content', '1']']
+
+	[cms_login]
+	(string) Admin
+
+	[cms_pass]
+	(string) 21232f297a57a5a743894a0e4a801fc3
+
+	[csrf_token]
+	(string) 00692990e6c647981e77e6aa8e50327d
+
+	[user_is_sv]
+	(boolean) 1
+
+	[starttime]
+	(integer) 1400225079
+
+	[paging]
+	(array) ['['['['['20', '']']', '['['20', '']']']']']
+
+	[stat]
+	(array) ['381c3cfc65b9e07156e991e57da85400', '1', '13', '27', '7', '3', '3', '']
+
+	[bbf5ec973467f032c7ae6c0098d5387b]
+	(array) ['['content', 'content', '2']']
+
+	[72afcbdb145dd89daa85532456e978a6]
+	(array) ['['content', 'content', '3']']
+
+
+[_GET]
+	[path]
+	(string) users/profile/
+
+	[umi_authorization]
+	(string) 
+
+
+[Request headers]
+	[Host]
+	(string) localhost
+
+	[Connection]
+	(string) keep-alive
+
+	[Accept]
+	(string) text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+
+	[User-Agent]
+	(string) Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/537.36
+
+	[Referer]
+	(string) http://localhost/about/
+
+	[Accept-Encoding]
+	(string) gzip,deflate,sdch
+
+	[Accept-Language]
+	(string) ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+
+	[Cookie]
+	(string) user_captcha=u55k8n; PHPSESSID=381c3cfc65b9e07156e991e57da85400; umicms_session=f4ce655440295067f66f6730bfb04bf5; stat_id=381c3cfc65b9e07156e991e57da85400; ilang=ru
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.2.12
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+
+[0.0002081]	Изображение ./images/user2/img_1209.jpg повреждено
+[0.0002141]	#0 U:\home\localhost\www\classes\modules\system.php(112): makeThumbnailFull('./images/user2/...', './images/cms/th...', '87', '87', '1', 5, false, 80)
+#1 [internal function]: system->makeThumbnailFull('./images/user2/...', '87', '87', 'notemplate', '0', '1')
+#2 U:\home\localhost\www\classes\system\subsystems\streams\udata\udataStream.php(2): call_user_func_array(Array, Array)
+#3 U:\home\localhost\www\classes\system\subsystems\streams\udata\udataStream.php(2): udataStream->executeMacros(Array)
+#4 [internal function]: udataStream->stream_open('udata://system/...', 'rb', 4, NULL)
+#5 U:\home\localhost\www\classes\system\subsystems\umiTemplaters\types\umiTemplaterXSLT.php(2): XSLTProcessor->transformToXml(Object(DOMDocument))
+#6 U:\home\localhost\www\libs\root-src\index.php(151): umiTemplaterXSLT->parse(Array, 'file://U:/home/...')
+#7 U:\home\localhost\www\index.php(7): require('U:\home\localho...')
+#8 {main}

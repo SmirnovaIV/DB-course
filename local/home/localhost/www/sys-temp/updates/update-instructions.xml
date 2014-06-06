@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package last-revision="22663" client-revision="0" generated="1399876643" key="DB9DB06F239-F528764D624-B2CBAB96D31" domain_key="DB9DB06F239-F528764D624-B2CBAB96D31" ip="127.0.0.1" host="localhost" edition="commerce_enc" support_time="2015-05-12 10:37:13" owner_fname="" owner_lname="" owner_mname="" owner_email="vivgman@bk.ru">
+  <component name="core" filesize="28006400" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.9.6" date="1396127335" revision="22663"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="events" filesize="61440" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.9.6" date="1396127335" revision="22663"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="menu" filesize="102400" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.9.6" date="1396127335" revision="22663"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="content" filesize="276480" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.9.6" date="1396127335" revision="22663"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="news" filesize="102400" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.9.6" date="1396127335" revision="22663"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="blogs20" filesize="174080" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.9.6" date="1396127335" revision="22663"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="forum" filesize="163840" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.9.6" date="1396127335" revision="22663"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="comments" filesize="122880" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.9.6" date="1396127335" revision="22663"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="vote" filesize="102400" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.9.6" date="1396127335" revision="22663"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="webforms" filesize="122880" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.9.6" date="1396127335" revision="22663"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="photoalbum" filesize="174080" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.9.6" date="1396127335" revision="22663"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="faq" filesize="133120" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.9.6" date="1396127335" revision="22663"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="dispatches" filesize="184320" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.9.6" date="1396127335" revision="22663"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="catalog" filesize="81920" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.9.6" date="1396127335" revision="22663"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="emarket" filesize="829440" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.9.6" date="1396127335" revision="22663"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="banners" filesize="112640" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.9.6" date="1396127335" revision="22663"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="users" filesize="296960" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.9.6" date="1396127335" revision="22663"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="stat" filesize="1269760" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.9.6" date="1396127335" revision="22663"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="seo" filesize="143360" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.9.6" date="1396127335" revision="22663"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="exchange" filesize="92160" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.9.6" date="1396127335" revision="22663"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="social_networks" filesize="112640" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.9.6" date="1396127335" revision="22663"><![CDATA[Добавлен модуль интеграции с социальными сетями.]]></version>
+  </component>
+  <component name="config" filesize="133120" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.9.6" date="1396127335" revision="22663"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="data" filesize="348160" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.9.6" date="1396127335" revision="22663"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="autoupdate" filesize="71680" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.9.6" date="1396127335" revision="22663"><![CDATA[Улучшена работа установшика системы]]></version>
+  </component>
+  <component name="backup" filesize="40960" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.9.6" date="1396127335" revision="22663"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="search" filesize="122880" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.9.6" date="1396127335" revision="22663"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="filemanager" filesize="61440" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.9.6" date="1396127335" revision="22663"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+</package>

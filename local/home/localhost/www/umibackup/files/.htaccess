@@ -1,0 +1,11 @@
+
+########## UMI.CMS - update begin ##########
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !/install.php$
+RewriteCond %{REQUEST_URI} !/installer.php$
+RewriteCond %{REQUEST_URI} !/smu/install.php$
+RewriteCond %{REQUEST_URI} !/smu/installer.php$
+RewriteCond %{REQUEST_URI} !/umi_smt.php$
+RewriteCond %{REQUEST_URI} !/dummy.php$
+RewriteRule ^.*$ /dummy.php [L]
+########### UMI.CMS - update end ###########

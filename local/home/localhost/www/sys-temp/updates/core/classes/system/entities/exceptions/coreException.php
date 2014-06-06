@@ -1,0 +1,2 @@
+<?php
+ class coreException extends baseException {};class coreBreakEventsException extends coreException {};class selectorException extends coreException {};class libXMLErrorException extends coreException  {public function __construct($v11a5b091e0140c519d8d5a323427a5da) {$this->code  = $v11a5b091e0140c519d8d5a323427a5da->code;$this->message  = $v11a5b091e0140c519d8d5a323427a5da->message;$this->line  = $v11a5b091e0140c519d8d5a323427a5da->line;$this->file  = $v11a5b091e0140c519d8d5a323427a5da->file;}}?>

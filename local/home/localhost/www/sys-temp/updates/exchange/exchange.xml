@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1396107209</timestamp>
+      <rfc>Sat, 29 Mar 2014 18:33:29 +0300</rfc>
+      <utc>2014-03-29T18:33:29+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/exchange" val="exchange"/>
+    <key path="modules/exchange/name" val="exchange"/>
+    <key path="modules/exchange/filename" val="modules/exchange/class.php"/>
+    <key path="modules/exchange/config" val="0" update="1"/>
+    <key path="modules/exchange/ico" val="exchange"/>
+    <key path="modules/exchange/default_method" val="import" update="1"/>
+    <key path="modules/exchange/default_method_admin" val="import" update="1"/>
+    <key path="modules/exchange/func_perms" val=""/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/exchange" name="exchange">/classes/modules/exchange</directory>
+    <directory path="./styles/skins/mac/data/modules/exchange" name="exchange">/styles/skins/mac/data/modules/exchange</directory>
+  </directories>
+  <files>
+    <file path="./classes/modules/exchange/i18n.en.php" size="2935" ext="php" hash="2dfb51227e2aac9dc78270eb81bff639" name="i18n.en.php" only_install="true">/classes/modules/exchange/i18n.en.php</file>
+    <file path="./classes/modules/exchange/__auto.php" size="6517" ext="php" hash="f778bcec3ffb8fe7a5624ce594fda97e" name="__auto.php">/classes/modules/exchange/__auto.php</file>
+    <file path="./classes/modules/exchange/__custom_adm.php" size="110" ext="php" hash="ecc8c130ed4116bf83b47e03448af48e" name="__custom_adm.php" only_install="true">/classes/modules/exchange/__custom_adm.php</file>
+    <file path="./classes/modules/exchange/__export.php" size="4615" ext="php" hash="21d53a36a19bd8b30df60d735f8828fd" name="__export.php">/classes/modules/exchange/__export.php</file>
+    <file path="./classes/modules/exchange/__import.php" size="2508" ext="php" hash="380812425d88c002a3194192afc6edcc" name="__import.php">/classes/modules/exchange/__import.php</file>
+    <file path="./classes/modules/exchange/__auto_export.php" size="9540" ext="php" hash="7ee7ae536e9feb60f6ea0dfdb84c55c0" name="__auto_export.php">/classes/modules/exchange/__auto_export.php</file>
+    <file path="./classes/modules/exchange/class.php" size="2285" ext="php" hash="a4bb6fe5cbde2d047b91a8708818babf" name="class.php">/classes/modules/exchange/class.php</file>
+    <file path="./classes/modules/exchange/permissions.php" size="223" ext="php" hash="cae3c77e2ff41db33504f6fa20666f41" name="permissions.php">/classes/modules/exchange/permissions.php</file>
+    <file path="./classes/modules/exchange/__admin.php" size="7577" ext="php" hash="b8cfb493a58bec8ba41c715bbc43e28f" name="__admin.php">/classes/modules/exchange/__admin.php</file>
+    <file path="./classes/modules/exchange/__custom.php" size="91" ext="php" hash="06cb72d4b511c914abecda8bcdce1055" name="__custom.php" only_install="true">/classes/modules/exchange/__custom.php</file>
+    <file path="./classes/modules/exchange/install.php" size="866" ext="php" hash="ba76087fd031101e58daabf323a3d066" name="install.php">/classes/modules/exchange/install.php</file>
+    <file path="./classes/modules/exchange/i18n.php" size="4720" ext="php" hash="4ccac69c70aa35832e8b9dd20de1f7c8" name="i18n.php">/classes/modules/exchange/i18n.php</file>
+    <file path="./styles/skins/mac/data/modules/exchange/list.view.xsl" size="17055" ext="xsl" hash="815062fd0a82a3768885b6d5524a1706" name="list.view.xsl">/styles/skins/mac/data/modules/exchange/list.view.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types>
+    <type id="807" guid="425ac6a281919b17c4d550ebeb2a5a130e579c7f" title="Форматы экспорта" parent-id="0" guide="guide" public="public" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="common" title="Свойства" visible="visible" active="active">
+          <field id="9170" name="sid" title="Идентификатор" required="required">
+            <tip>Служит для связи с обработчиками, заполняется разработчиком импотрера</tip>
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="804" guid="exchange-export" title="Экспорт данных" parent-id="0" locked="locked">
+      <base module="exchange" method="export">Обмен данными: Экспорт</base>
+      <fieldgroups>
+        <group name="common" title="Свойства" visible="visible" active="active">
+          <field id="9171" name="format" title="Формат экспорта" guide-id="807" required="required">
+            <tip>Формат, в который будут перобразованы данные из UMI.CMS</tip>
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9172" name="elements" title="Разделы сайта, которые будут экспортированы">
+            <tip>Если формат экспорта поддерживает данную функцию, будут экспортированы только выбранные разделы</tip>
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+          <field id="9382" name="excluded_elements" title="Разделы сайта, которые не будут экспортированы" filterable="filterable">
+            <tip>Если формат экспорта поддерживает данную функцию, выбранные разделы экспортированы не будут</tip>
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+          <field id="9173" name="cache_time" title="Время кеширования результатов экспорта (в минутах)">
+            <tip>Если задано, то результат будет закеширован на указанное кол-во минут</tip>
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="9206" name="source_name" title="Идентификатор ресурса">
+            <tip>При интеграции со сторонним сервисом, здесь следует указать имя пространства имен.</tip>
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="806" guid="264bb3273d03cef72b6fbd7618bce7349989fa94" title="Форматы импорта" parent-id="0" guide="guide" public="public" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="common" title="Свойства" visible="visible" active="active">
+          <field id="9170" name="sid" title="Идентификатор" required="required">
+            <tip>Служит для связи с обработчиками, заполняется разработчиком импотрера</tip>
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="805" guid="exchange-import" title="Импорт данных" parent-id="0" locked="locked">
+      <base module="exchange" method="import">Обмен данными: Импорт</base>
+      <fieldgroups>
+        <group name="common" title="Свойства" visible="visible" active="active">
+          <field id="9174" name="format" title="Формат данных" guide-id="806" required="required">
+            <tip>Формат импотрируемых данных</tip>
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9175" name="file" title="Файл данных" required="required">
+            <type name="Файл" data-type="file"/>
+          </field>
+          <field id="9176" name="elements" title="Раздел сайта, в который будут импортированы данные">
+            <tip>Если формат импорта поддерживает данную функцию, данные будут импортированы в указанный раздел</tip>
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+  </types>
+  <objects/>
+  <pages/>
+  <relations>
+    <relation type-id="804" field-name="format">
+      <guide id="807"/>
+    </relation>
+    <relation type-id="805" field-name="format">
+      <guide id="806"/>
+    </relation>
+  </relations>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+</umidump>

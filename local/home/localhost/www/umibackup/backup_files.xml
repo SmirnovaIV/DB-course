@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<backup>
+  <files>
+    <file path="./.htaccess" copied="true"/>
+    <file path="./config.ini" copied="true"/>
+    <file path="./dummy.php" copied="true"/>
+    <file path="./install.ini" copied="true"/>
+    <file path="./install.php" copied="true"/>
+    <file path="./installer.php" copied="true"/>
+    <file path="./__install.php" copied="true"/>
+  </files>
+</backup>

@@ -1,0 +1,3 @@
+<?php
+    $permissions['content'][] = 'loadfile';
+?>

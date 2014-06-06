@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1396107206</timestamp>
+      <rfc>Sat, 29 Mar 2014 18:33:26 +0300</rfc>
+      <utc>2014-03-29T18:33:26+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/banners" val="banners"/>
+    <key path="modules/banners/name" val="banners"/>
+    <key path="modules/banners/filename" val="banners/class.php"/>
+    <key path="modules/banners/config" val="1" update="1"/>
+    <key path="modules/banners/default_method" val="insert_banner" update="1"/>
+    <key path="modules/banners/default_method_admin" val="lists" update="1"/>
+    <key path="modules/banners/is_indexed" val="0"/>
+    <key path="modules/banners/func_perms" val=""/>
+    <key path="modules/banners/func_perms/places_list" val="Редактирование мест показа"/>
+    <key path="modules/banners/func_perms/places_list/place_edit" val=""/>
+    <key path="modules/banners/func_perms/places_list/place_edit_do" val=""/>
+    <key path="modules/banners/func_perms/places_list/place_add" val=""/>
+    <key path="modules/banners/func_perms/places_list/place_add_do" val=""/>
+    <key path="modules/banners/func_perms/places_list/place_del" val=""/>
+    <key path="modules/banners/func_perms/banners_list" val="Редактирование баннеров"/>
+    <key path="modules/banners/func_perms/banners_list/banner_edit" val=""/>
+    <key path="modules/banners/func_perms/banners_list/banner_edit_do" val=""/>
+    <key path="modules/banners/func_perms/banners_list/banner_add" val=""/>
+    <key path="modules/banners/func_perms/banners_list/banner_add_do" val=""/>
+    <key path="modules/banners/func_perms/banners_list/banner_del" val=""/>
+    <key path="modules/banners/func_perms/insert" val="Просмотр баннеров"/>
+    <key path="modules/banners/func_perms/insert/go_to" val=""/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/banners" name="banners">/classes/modules/banners</directory>
+    <directory path="./styles/skins/mac/data/modules/banners" name="banners">/styles/skins/mac/data/modules/banners</directory>
+  </directories>
+  <files>
+    <file path="./classes/modules/banners/i18n.en.php" size="1534" ext="php" hash="e4d71aba63c32a9e46728fcf45f4de5b" name="i18n.en.php" only_install="true">/classes/modules/banners/i18n.en.php</file>
+    <file path="./classes/modules/banners/lang.php" size="971" ext="php" hash="bd54c10e64e021aa21276d4c1b3a6cc5" name="lang.php">/classes/modules/banners/lang.php</file>
+    <file path="./classes/modules/banners/__banners.php" size="4587" ext="php" hash="b9ab6868718ad22cb0fe4d590ddf5928" name="__banners.php">/classes/modules/banners/__banners.php</file>
+    <file path="./classes/modules/banners/__custom_adm.php" size="109" ext="php" hash="725f3b03e9aab1db517e50e6b24d1f9b" name="__custom_adm.php" only_install="true">/classes/modules/banners/__custom_adm.php</file>
+    <file path="./classes/modules/banners/forms.php" size="11431" ext="php" hash="bc0df144ea67b17789bc4442ec1b9980" name="forms.php">/classes/modules/banners/forms.php</file>
+    <file path="./classes/modules/banners/class.php" size="23773" ext="php" hash="37a7d32f06f3a40e1143e87f85b242fb" name="class.php">/classes/modules/banners/class.php</file>
+    <file path="./classes/modules/banners/__places.php" size="549" ext="php" hash="2f07440601ff28af2bab690732c5b86f" name="__places.php">/classes/modules/banners/__places.php</file>
+    <file path="./classes/modules/banners/permissions.php" size="221" ext="php" hash="f61c33b10936d503af28523d6e92684c" name="permissions.php">/classes/modules/banners/permissions.php</file>
+    <file path="./classes/modules/banners/__admin.php" size="1452" ext="php" hash="c02a8552c8575a0a8f9404e9b804ccb4" name="__admin.php">/classes/modules/banners/__admin.php</file>
+    <file path="./classes/modules/banners/__custom.php" size="86" ext="php" hash="613abfcefdf11b1cc7b412a5a179d667" name="__custom.php" only_install="true">/classes/modules/banners/__custom.php</file>
+    <file path="./classes/modules/banners/install.php" size="1139" ext="php" hash="e759e6339358219b74e03dde325dec08" name="install.php">/classes/modules/banners/install.php</file>
+    <file path="./classes/modules/banners/i18n.php" size="2234" ext="php" hash="946d6a7509b1aa7b579e922fae38738b" name="i18n.php">/classes/modules/banners/i18n.php</file>
+    <file path="./styles/skins/mac/data/modules/banners/settings.modify.xsl" size="486" ext="xsl" hash="89a9d5f5060c7e6b6b1e7cfa02f3de54" name="settings.modify.xsl">/styles/skins/mac/data/modules/banners/settings.modify.xsl</file>
+    <file path="./styles/skins/mac/data/modules/banners/list.view.xsl" size="1215" ext="xsl" hash="ea4327d6fa8abb99c15d8b6a5204d477" name="list.view.xsl">/styles/skins/mac/data/modules/banners/list.view.xsl</file>
+    <file path="./styles/skins/mac/data/modules/banners/list.modify.xsl" size="2284" ext="xsl" hash="62ca9460d235cc38c713ccac214a7635" name="list.modify.xsl">/styles/skins/mac/data/modules/banners/list.modify.xsl</file>
+    <file path="./styles/skins/mac/data/modules/banners/form.modify.xsl" size="2144" ext="xsl" hash="5ef92ad6d05b5dc1d365a2aa9f32f22b" name="form.modify.xsl">/styles/skins/mac/data/modules/banners/form.modify.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types>
+    <type id="7" guid="root-guides-type" title="Справочники" parent-id="0" locked="locked">
+      <base/>
+      <fieldgroups/>
+    </type>
+    <type id="671" guid="banners-place" title="Места показов баннеров" parent-id="7" guide="guide" locked="locked">
+      <base module="banners" method="place">Место показа баннера</base>
+      <fieldgroups>
+        <group name="common_props" title="Общие свойства" visible="visible" locked="locked" active="active">
+          <field id="8789" name="id" title="ID" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="8790" name="descr" title="Описание" visible="visible" locked="locked">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="8839" name="is_show_rand_banner" title="Показ случайного баннера" visible="visible" locked="locked" filterable="filterable">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="739" guid="sytem-citylist" title="Список городов" parent-id="7" guide="guide" locked="locked">
+      <base/>
+      <fieldgroups/>
+    </type>
+    <type id="5" guid="banners-banner" title="Баннер" parent-id="0" locked="locked">
+      <base module="banners" method="banner">Баннер</base>
+      <fieldgroups>
+        <group name="common" title="Общее" locked="locked" active="active" visible="0">
+          <field id="8791" name="descr" title="Описание" visible="visible" locked="locked">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="8796" name="is_active" title="Активен" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="8795" name="tags" title="Теги" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+        </group>
+        <group name="redirect_props" title="Параметры перехода" locked="locked" active="active" visible="0">
+          <field id="8800" name="url" title="Url страницы" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="8801" name="open_in_new_window" title="Открывать в новом окне" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="view_params" title="Параметры показа" locked="locked" active="active" visible="0">
+          <field id="8792" name="views_count" title="Количество показов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8793" name="clicks_count" title="Количество переходов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8794" name="max_views" title="Максимальное количество показов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8840" name="show_start_date" title="Дата начала показа" visible="visible" inheritable="inheritable" locked="locked" filterable="filterable">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="8836" name="show_till_date" title="Дата окончания показа" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="8902" name="user_tags" title="Показывать пользователям с тэгами" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+        </group>
+        <group name="view_pages" title="Разделы отображения" visible="visible" locked="locked" active="active">
+          <field id="8797" name="view_pages" title="Страницы, на которых показывать баннер" visible="visible" locked="locked">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+          <field id="8798" name="place" title="Место показа" visible="visible" locked="locked" guide-id="671">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="9352" name="not_view_pages" title="Страницы, на которых не показывать баннер" visible="visible" locked="locked">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+        </group>
+        <group name="time_targeting" title="Time-таргетинг" visible="visible" locked="locked" active="active">
+          <field id="17" name="time_targeting_by_month_days" title="По числам месяца" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="18" name="time_targeting_by_month" title="По месяцам" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="19" name="time_targeting_by_week_days" title="По дням недели" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="20" name="time_targeting_by_hours" title="По времени суток" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="16" name="time_targeting_is_active" title="Time-таргетинг включен" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="city_targeting" title="Геотаргетинг" visible="visible" locked="locked" active="0">
+          <field id="8988" name="city_targeting_city" title="Город" visible="visible" locked="locked" guide-id="739">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="8989" name="city_targeting_is_active" title="Геотаргетинг включен" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="672" guid="banners-banner-image" title="Баннер с картинкой" parent-id="5" locked="locked">
+      <base module="banners" method="banner">Баннер</base>
+      <fieldgroups>
+        <group name="common" title="Общее" locked="locked" active="active" visible="0">
+          <field id="8791" name="descr" title="Описание" visible="visible" locked="locked">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="8796" name="is_active" title="Активен" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="8795" name="tags" title="Теги" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+        </group>
+        <group name="redirect_props" title="Параметры перехода" locked="locked" active="active" visible="0">
+          <field id="8800" name="url" title="Url страницы" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="8801" name="open_in_new_window" title="Открывать в новом окне" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="view_params" title="Параметры показа" locked="locked" active="active" visible="0">
+          <field id="8792" name="views_count" title="Количество показов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8793" name="clicks_count" title="Количество переходов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8794" name="max_views" title="Максимальное количество показов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8840" name="show_start_date" title="Дата начала показа" visible="visible" inheritable="inheritable" locked="locked" filterable="filterable">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="8836" name="show_till_date" title="Дата окончания показа" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="8902" name="user_tags" title="Показывать пользователям с тэгами" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+        </group>
+        <group name="view_pages" title="Разделы отображения" visible="visible" locked="locked" active="active">
+          <field id="8797" name="view_pages" title="Страницы, на которых показывать баннер" visible="visible" locked="locked">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+          <field id="8798" name="place" title="Место показа" visible="visible" locked="locked" guide-id="671">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="9352" name="not_view_pages" title="Страницы, на которых не показывать баннер" visible="visible" locked="locked">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+        </group>
+        <group name="time_targeting" title="Time-таргетинг" visible="visible" locked="locked" active="active">
+          <field id="17" name="time_targeting_by_month_days" title="По числам месяца" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="18" name="time_targeting_by_month" title="По месяцам" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="19" name="time_targeting_by_week_days" title="По дням недели" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="20" name="time_targeting_by_hours" title="По времени суток" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="16" name="time_targeting_is_active" title="Time-таргетинг включен" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="banner_custom_props" title="Индивидуальные параметры баннера" visible="visible" locked="locked" active="active">
+          <field id="8799" name="image" title="Изображение" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+          <field id="8802" name="width" title="Ширина" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8803" name="height" title="Высота" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8804" name="alt" title="Альтернативный текст" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+        <group name="city_targeting" title="Геотаргетинг" visible="visible" locked="locked" active="0">
+          <field id="8988" name="city_targeting_city" title="Город" visible="visible" locked="locked" guide-id="739">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="8989" name="city_targeting_is_active" title="Геотаргетинг включен" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="674" guid="banners-banner-swf-quality" title="Качество флешки" parent-id="7" guide="guide" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="props" title="Свойства" visible="visible" active="active">
+          <field id="8808" name="quality_value" title="Значение" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="673" guid="banners-banner-swf" title="Баннер с флешкой" parent-id="5" locked="locked">
+      <base module="banners" method="banner">Баннер</base>
+      <fieldgroups>
+        <group name="common" title="Общее" locked="locked" active="active" visible="0">
+          <field id="8791" name="descr" title="Описание" visible="visible" locked="locked">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="8796" name="is_active" title="Активен" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="8795" name="tags" title="Теги" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+        </group>
+        <group name="redirect_props" title="Параметры перехода" locked="locked" active="active" visible="0">
+          <field id="8800" name="url" title="Url страницы" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="8801" name="open_in_new_window" title="Открывать в новом окне" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="view_params" title="Параметры показа" locked="locked" active="active" visible="0">
+          <field id="8792" name="views_count" title="Количество показов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8793" name="clicks_count" title="Количество переходов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8794" name="max_views" title="Максимальное количество показов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8840" name="show_start_date" title="Дата начала показа" visible="visible" inheritable="inheritable" locked="locked" filterable="filterable">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="8836" name="show_till_date" title="Дата окончания показа" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="8902" name="user_tags" title="Показывать пользователям с тэгами" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+        </group>
+        <group name="view_pages" title="Разделы отображения" visible="visible" locked="locked" active="active">
+          <field id="8797" name="view_pages" title="Страницы, на которых показывать баннер" visible="visible" locked="locked">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+          <field id="8798" name="place" title="Место показа" visible="visible" locked="locked" guide-id="671">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="9352" name="not_view_pages" title="Страницы, на которых не показывать баннер" visible="visible" locked="locked">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+        </group>
+        <group name="time_targeting" title="Time-таргетинг" visible="visible" locked="locked" active="active">
+          <field id="17" name="time_targeting_by_month_days" title="По числам месяца" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="18" name="time_targeting_by_month" title="По месяцам" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="19" name="time_targeting_by_week_days" title="По дням недели" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="20" name="time_targeting_by_hours" title="По времени суток" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="16" name="time_targeting_is_active" title="Time-таргетинг включен" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="banner_custom_props" title="Индивидуальные параметры баннера" visible="visible" locked="locked" active="active">
+          <field id="8805" name="swf" title="Флеш-ролик" visible="visible" locked="locked">
+            <type name="Флеш-ролик" data-type="swf_file"/>
+          </field>
+          <field id="8806" name="width" title="Ширина" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8807" name="height" title="Высота" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8809" name="swf_quality" title="Качество ролика" visible="visible" locked="locked" guide-id="674">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+        <group name="city_targeting" title="Геотаргетинг" visible="visible" locked="locked" active="0">
+          <field id="8988" name="city_targeting_city" title="Город" visible="visible" locked="locked" guide-id="739">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="8989" name="city_targeting_is_active" title="Геотаргетинг включен" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="675" guid="banners-banner-html" title="Баннер с HTML" parent-id="5" locked="locked">
+      <base module="banners" method="banner">Баннер</base>
+      <fieldgroups>
+        <group name="common" title="Общее" locked="locked" active="active" visible="0">
+          <field id="8791" name="descr" title="Описание" visible="visible" locked="locked">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="8796" name="is_active" title="Активен" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="8795" name="tags" title="Теги" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+        </group>
+        <group name="redirect_props" title="Параметры перехода" locked="locked" active="active" visible="0">
+          <field id="8800" name="url" title="Url страницы" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="8801" name="open_in_new_window" title="Открывать в новом окне" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="view_params" title="Параметры показа" locked="locked" active="active" visible="0">
+          <field id="8792" name="views_count" title="Количество показов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8793" name="clicks_count" title="Количество переходов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8794" name="max_views" title="Максимальное количество показов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8840" name="show_start_date" title="Дата начала показа" visible="visible" inheritable="inheritable" locked="locked" filterable="filterable">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="8836" name="show_till_date" title="Дата окончания показа" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="8902" name="user_tags" title="Показывать пользователям с тэгами" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+        </group>
+        <group name="view_pages" title="Разделы отображения" visible="visible" locked="locked" active="active">
+          <field id="8797" name="view_pages" title="Страницы, на которых показывать баннер" visible="visible" locked="locked">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+          <field id="8798" name="place" title="Место показа" visible="visible" locked="locked" guide-id="671">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="9352" name="not_view_pages" title="Страницы, на которых не показывать баннер" visible="visible" locked="locked">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+        </group>
+        <group name="time_targeting" title="Time-таргетинг" visible="visible" locked="locked" active="active">
+          <field id="17" name="time_targeting_by_month_days" title="По числам месяца" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="18" name="time_targeting_by_month" title="По месяцам" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="19" name="time_targeting_by_week_days" title="По дням недели" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="20" name="time_targeting_by_hours" title="По времени суток" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="16" name="time_targeting_is_active" title="Time-таргетинг включен" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="banner_custom_props" title="Индивидуальные параметры баннера" visible="visible" locked="locked" active="active">
+          <field id="8810" name="html_content" title="HTML-содержание" visible="visible" locked="locked">
+            <type name="HTML-текст" data-type="wysiwyg"/>
+          </field>
+        </group>
+        <group name="city_targeting" title="Геотаргетинг" visible="visible" locked="locked" active="0">
+          <field id="8988" name="city_targeting_city" title="Город" visible="visible" locked="locked" guide-id="739">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="8989" name="city_targeting_is_active" title="Геотаргетинг включен" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+  </types>
+  <objects/>
+  <pages/>
+  <relations>
+    <relation type-id="5" field-name="place">
+      <guide id="671"/>
+    </relation>
+    <relation type-id="5" field-name="city_targeting_city">
+      <guide id="739"/>
+    </relation>
+    <relation type-id="672" field-name="place">
+      <guide id="671"/>
+    </relation>
+    <relation type-id="672" field-name="city_targeting_city">
+      <guide id="739"/>
+    </relation>
+    <relation type-id="673" field-name="place">
+      <guide id="671"/>
+    </relation>
+    <relation type-id="673" field-name="swf_quality">
+      <guide id="674"/>
+    </relation>
+    <relation type-id="673" field-name="city_targeting_city">
+      <guide id="739"/>
+    </relation>
+    <relation type-id="675" field-name="place">
+      <guide id="671"/>
+    </relation>
+    <relation type-id="675" field-name="city_targeting_city">
+      <guide id="739"/>
+    </relation>
+  </relations>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+</umidump>

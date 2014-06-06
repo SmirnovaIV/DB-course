@@ -1,0 +1,1042 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1396107203</timestamp>
+      <rfc>Sat, 29 Mar 2014 18:33:23 +0300</rfc>
+      <utc>2014-03-29T18:33:23+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/content" val="content"/>
+    <key path="modules/content/name" val="content"/>
+    <key path="modules/content/filename" val="modules/content/class.php"/>
+    <key path="modules/content/config" val="1" update="1"/>
+    <key path="modules/content/default_method" val="content" update="1"/>
+    <key path="modules/content/default_method_admin" val="sitetree" update="1"/>
+    <key path="modules/content/is_indexed" val="1"/>
+    <key path="modules/content/func_perms" val=""/>
+    <key path="modules/content/func_perms/content" val="Просмотр страниц"/>
+    <key path="modules/content/func_perms/sitetree" val="Управление контентом"/>
+    <key path="modules/content/func_perms/tickets" val="Работа с заметками"/>
+    <key path="modules/content/func_perms/publish" val="Возможность публикации"/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/content" name="content">/classes/modules/content</directory>
+    <directory path="./classes/modules/content/methods" name="methods">/classes/modules/content/methods</directory>
+    <directory path="./classes/modules/content/methods/pages" name="pages">/classes/modules/content/methods/pages</directory>
+    <directory path="./classes/modules/content/methods/tags" name="tags">/classes/modules/content/methods/tags</directory>
+    <directory path="./styles/skins/mac/data/modules/content" name="content">/styles/skins/mac/data/modules/content</directory>
+  </directories>
+  <files>
+    <file path="./classes/modules/content/__editor.php" size="39074" ext="php" hash="3ba11a241b56e065b5972555a87b27f7" name="__editor.php">/classes/modules/content/__editor.php</file>
+    <file path="./classes/modules/content/update.php" size="872" ext="php" hash="5766203793ea991a6da4b1aab5947677" name="update.php">/classes/modules/content/update.php</file>
+    <file path="./classes/modules/content/events.php" size="1355" ext="php" hash="2cb8c09c74cba7cd82928642e70612fc" name="events.php">/classes/modules/content/events.php</file>
+    <file path="./classes/modules/content/i18n.en.php" size="6254" ext="php" hash="1c18978239e8e4fe7b8e7ff4168daca0" name="i18n.en.php" only_install="true">/classes/modules/content/i18n.en.php</file>
+    <file path="./classes/modules/content/__antispam.php" size="1156" ext="php" hash="dc4a8054420800babca11558506a4561" name="__antispam.php">/classes/modules/content/__antispam.php</file>
+    <file path="./classes/modules/content/lang.php" size="4151" ext="php" hash="22399ea00092e43fb9db3db1ad4ba55a" name="lang.php">/classes/modules/content/lang.php</file>
+    <file path="./classes/modules/content/__custom_adm.php" size="109" ext="php" hash="3f6b91d766dafe07670abf967eef175a" name="__custom_adm.php" only_install="true">/classes/modules/content/__custom_adm.php</file>
+    <file path="./classes/modules/content/__json.php" size="22793" ext="php" hash="10065e70203a025d4effcc4dc0b2adcf" name="__json.php">/classes/modules/content/__json.php</file>
+    <file path="./classes/modules/content/methods/pages/__pages_mklist_by_tags.lib.php" size="3386" ext="php" hash="17546aa6b06fc859629186701ddaf03b" name="__pages_mklist_by_tags.lib.php">/classes/modules/content/methods/pages/__pages_mklist_by_tags.lib.php</file>
+    <file path="./classes/modules/content/methods/pages/__pagesByAccountTags.lib.php" size="506" ext="php" hash="3d8a7116ad9865685033ebb6cbd30458" name="__pagesByAccountTags.lib.php">/classes/modules/content/methods/pages/__pagesByAccountTags.lib.php</file>
+    <file path="./classes/modules/content/methods/pages/__pagesByDomainTags.lib.php" size="557" ext="php" hash="4a235ce4bab665487a363133b8993f0d" name="__pagesByDomainTags.lib.php">/classes/modules/content/methods/pages/__pagesByDomainTags.lib.php</file>
+    <file path="./classes/modules/content/methods/tags/__tagsDomainCloud.lib.php" size="415" ext="php" hash="cf1978e85c9a146165f8c456d73a06df" name="__tagsDomainCloud.lib.php">/classes/modules/content/methods/tags/__tagsDomainCloud.lib.php</file>
+    <file path="./classes/modules/content/methods/tags/__tags_mk_cloud.lib.php" size="4270" ext="php" hash="2b67da7df9e200f2b9857c47fca9ad82" name="__tags_mk_cloud.lib.php">/classes/modules/content/methods/tags/__tags_mk_cloud.lib.php</file>
+    <file path="./classes/modules/content/methods/tags/__tagsAccountUsageCloud.lib.php" size="274" ext="php" hash="9538e6541f1006cb5c6044f2e2f31b68" name="__tagsAccountUsageCloud.lib.php">/classes/modules/content/methods/tags/__tagsAccountUsageCloud.lib.php</file>
+    <file path="./classes/modules/content/methods/tags/__tagsDomainUsageCloud.lib.php" size="326" ext="php" hash="cfad838b8516ed0b11ec45c85155b44a" name="__tagsDomainUsageCloud.lib.php">/classes/modules/content/methods/tags/__tagsDomainUsageCloud.lib.php</file>
+    <file path="./classes/modules/content/methods/tags/__tagsAccountCloud.lib.php" size="364" ext="php" hash="da42142dcfc2860029519f31eb77cb85" name="__tagsAccountCloud.lib.php">/classes/modules/content/methods/tags/__tagsAccountCloud.lib.php</file>
+    <file path="./classes/modules/content/methods/tags/__tagsAccountEfficiencyCloud.lib.php" size="381" ext="php" hash="1c78cdf9e6be0f3a8e4db272ddc34f92" name="__tagsAccountEfficiencyCloud.lib.php">/classes/modules/content/methods/tags/__tagsAccountEfficiencyCloud.lib.php</file>
+    <file path="./classes/modules/content/methods/tags/__tagsDomainEfficiencyCloud.lib.php" size="432" ext="php" hash="4c8ffdb5fc4c25eb1e9f0d1f8fd14e2e" name="__tagsDomainEfficiencyCloud.lib.php">/classes/modules/content/methods/tags/__tagsDomainEfficiencyCloud.lib.php</file>
+    <file path="./classes/modules/content/methods/tags/__tags_mk_eff_cloud.lib.php" size="4599" ext="php" hash="4a3c93f3cf374f54ec5b9bae8e5063c2" name="__tags_mk_eff_cloud.lib.php">/classes/modules/content/methods/tags/__tags_mk_eff_cloud.lib.php</file>
+    <file path="./classes/modules/content/__events.php" size="7550" ext="php" hash="a31071eba42dd38eb8716cf877d33bc5" name="__events.php">/classes/modules/content/__events.php</file>
+    <file path="./classes/modules/content/__tickets.php" size="1655" ext="php" hash="6b69df0c37201a1cf272f7658271fd3a" name="__tickets.php">/classes/modules/content/__tickets.php</file>
+    <file path="./classes/modules/content/lang.en.php" size="3583" ext="php" hash="b6c53addba2381426ec409ec1ebbb84d" name="lang.en.php">/classes/modules/content/lang.en.php</file>
+    <file path="./classes/modules/content/class.php" size="20147" ext="php" hash="a6fae0a02bc3c7f5d238bd7b333b4f80" name="class.php">/classes/modules/content/class.php</file>
+    <file path="./classes/modules/content/permissions.php" size="1658" ext="php" hash="2fedd778456d56d3982547396e3ce8b0" name="permissions.php">/classes/modules/content/permissions.php</file>
+    <file path="./classes/modules/content/__admin.php" size="10400" ext="php" hash="dd38590e9da421eb45e08817ba786b0a" name="__admin.php">/classes/modules/content/__admin.php</file>
+    <file path="./classes/modules/content/__lib.php" size="5336" ext="php" hash="98e3f0c1d3c1cfecad944ff928d5ed7f" name="__lib.php">/classes/modules/content/__lib.php</file>
+    <file path="./classes/modules/content/__custom.php" size="86" ext="php" hash="0e19c50c8890b7e4d972ed4c62340684" name="__custom.php" only_install="true">/classes/modules/content/__custom.php</file>
+    <file path="./classes/modules/content/install.php" size="4460" ext="php" hash="5c5dadd13354fca4399d461f9822156f" name="install.php">/classes/modules/content/install.php</file>
+    <file path="./classes/modules/content/i18n.php" size="9989" ext="php" hash="9bf42b10127ac3ace5b3855cd4ecb6a9" name="i18n.php">/classes/modules/content/i18n.php</file>
+    <file path="./styles/skins/mac/data/modules/content/settings.modify.xsl" size="199" ext="xsl" hash="8584ec54c29f7dcecd888cd409ffdf65" name="settings.modify.xsl">/styles/skins/mac/data/modules/content/settings.modify.xsl</file>
+    <file path="./styles/skins/mac/data/modules/content/list.view.xsl" size="1883" ext="xsl" hash="281bbc49ccd74024ed2a6b1fc3b2ac8b" name="list.view.xsl">/styles/skins/mac/data/modules/content/list.view.xsl</file>
+    <file path="./styles/skins/mac/data/modules/content/list.modify.xsl" size="2618" ext="xsl" hash="4b4455a0487b2ac6d4289738d4d712a8" name="list.modify.xsl">/styles/skins/mac/data/modules/content/list.modify.xsl</file>
+    <file path="./styles/skins/mac/data/modules/content/form.modify.xsl" size="4025" ext="xsl" hash="77bc82178ade08915479e24dff1a682b" name="form.modify.xsl">/styles/skins/mac/data/modules/content/form.modify.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types>
+    <type id="7" guid="root-guides-type" title="Справочники" parent-id="0" locked="locked">
+      <base/>
+      <fieldgroups/>
+    </type>
+    <type id="745" guid="de8627f75ba1abcfafd00a0e75ad189105cfdc21" title="Статус страницы" parent-id="7" guide="guide" public="public" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="svojstva_statusa_stranicy" title="Свойства статуса страницы" visible="visible" active="active">
+          <field id="9027" name="publish_status_id" title="id статуса" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="{root-pages-type}" guid="root-pages-type" title="Раздел сайта" parent-id="0" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="common" title="Общее" locked="locked" active="active" visible="0">
+          <field id="22" name="title" title="Поле TITLE" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="23" name="h1" title="Поле H1" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="26" name="content" title="Контент" visible="visible" locked="locked" indexable="indexable">
+            <type name="HTML-текст" data-type="wysiwyg"/>
+          </field>
+          <field id="25" name="meta_descriptions" title="Поле meta DESCRIPTIONS" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="24" name="meta_keywords" title="Поле meta KEYWORDS" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="8837" name="tags" title="Теги" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+        </group>
+        <group name="menu_view" title="Отображение в меню" locked="locked" active="active" visible="0">
+          <field id="27" name="menu_pic_ua" title="Изображение неактивного раздела" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+          <field id="28" name="menu_pic_a" title="Изображение активного раздела" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+          <field id="29" name="header_pic" title="Изображение для заголовка" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+        </group>
+        <group name="more_params" title="Дополнительные параметры" locked="locked" active="active" visible="0">
+          <field id="30" name="robots_deny" title="Запретить индексацию поисковиками" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="31" name="show_submenu" title="Показывать подменю" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="32" name="is_expanded" title="Меню всегда развернуто" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="33" name="is_unindexed" title="Исключить из поиска" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="rate_props" title="Свойства рейтинга" locked="locked" active="active" visible="0">
+          <field id="8903" name="rate_voters" title="Количество проголосовавших" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8904" name="rate_sum" title="Сумма баллов" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+        <group name="svojstva_publikacii" title="Актуальность публикации" visible="visible" locked="locked" active="0">
+          <field id="9024" name="expiration_date" title="Дата снятия с публикации" visible="visible" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9025" name="notification_date" title="Дата уведомления" visible="visible" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9026" name="publish_comments" title="Комментарий к публикации" visible="visible" locked="locked">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="9029" name="publish_status" title="Статус публикации" visible="visible" locked="locked" guide-id="745">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+        <group name="locks" title="Блокировка" visible="visible" locked="locked" active="active">
+          <field id="9030" name="locktime" title="Время блокировки" visible="visible" locked="locked" system="system">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9031" name="lockuser" title="Блокирующий пользователь" visible="visible" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="10" guid="content-page" title="Страница контента" parent-id="{root-pages-type}" locked="locked">
+      <base module="content">Страницы контента</base>
+      <fieldgroups>
+        <group name="common" title="Общее" locked="locked" active="active" visible="0">
+          <field id="22" name="title" title="Поле TITLE" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="23" name="h1" title="Поле H1" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="24" name="meta_keywords" title="Поле meta KEYWORDS" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="25" name="meta_descriptions" title="Поле meta DESCRIPTIONS" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="8837" name="tags" title="Теги" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+          <field id="26" name="content" title="Контент" visible="visible" locked="locked" indexable="indexable">
+            <type name="HTML-текст" data-type="wysiwyg"/>
+          </field>
+        </group>
+        <group name="menu_view" title="Отображение в меню" locked="locked" active="active" visible="0">
+          <field id="27" name="menu_pic_ua" title="Изображение неактивного раздела" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+          <field id="28" name="menu_pic_a" title="Изображение активного раздела" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+          <field id="29" name="header_pic" title="Изображение для заголовка" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+        </group>
+        <group name="more_params" title="Дополнительные параметры" locked="locked" active="active" visible="0">
+          <field id="30" name="robots_deny" title="Запретить индексацию поисковиками" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="31" name="show_submenu" title="Показывать подменю" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="32" name="is_expanded" title="Меню всегда развернуто" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="33" name="is_unindexed" title="Исключить из поиска" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="rate_voters" title="Количество проголосовавших" locked="locked" active="active" visible="0">
+          <field id="8903" name="rate_voters" title="Количество проголосовавших" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8904" name="rate_sum" title="Сумма баллов" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+        <group name="svojstva_publikacii" title="Актуальность публикации" visible="visible" locked="locked" active="0">
+          <field id="9024" name="expiration_date" title="Дата снятия с публикации" visible="visible" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9025" name="notification_date" title="Дата уведомления" visible="visible" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9026" name="publish_comments" title="Комментарий к публикации" visible="visible" locked="locked">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="9029" name="publish_status" title="Статус публикации" visible="visible" locked="locked" guide-id="745">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+        <group name="locks" title="Блокировка" visible="visible" locked="locked" active="active">
+          <field id="9030" name="locktime" title="Время блокировки" visible="visible" locked="locked" system="system">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9031" name="lockuser" title="Блокирующий пользователь" visible="visible" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="6" guid="users-users" title="Группы пользователей" parent-id="0" guide="guide" locked="locked">
+      <base module="users" method="users">Группы пользователей</base>
+      <fieldgroups>
+        <group name="svojstva_gruppy_polzovatelej" title="Свойства группы пользователей" locked="locked" active="active" visible="0">
+          <field id="8896" name="nazvanie" title="Название" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="693" guid="d69b923df6140a16aefc89546a384e0493641fbe" title="Страны" parent-id="7" guide="guide" public="public" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="params_more" title="Дополнительно" visible="visible" active="active">
+          <field id="9342" name="country_iso_code" title="Код страны" visible="visible" locked="locked">
+            <tip>Страна в формате ISO 3166-1 alpha-2</tip>
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="803" guid="emarket-deliveryaddress" title="Адрес доставки" parent-id="7" guide="guide" locked="locked">
+      <base module="emarket" method="delivery_address">Адрес доставки</base>
+      <fieldgroups>
+        <group name="common" title="Основное" visible="visible" active="active">
+          <field id="9160" name="country" title="Страна" visible="visible" guide-id="693" required="required">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9161" name="index" title="Почтовый индекс" visible="visible" required="required">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="9162" name="region" title="Регион" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9163" name="city" title="Город" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9164" name="street" title="Улица" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9165" name="house" title="Дом" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9166" name="flat" title="Квартира" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="780" guid="emarket-currency" title="Валюта" parent-id="0" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="currency">Валюта</base>
+      <fieldgroups>
+        <group name="props_currency" title="Свойства валюты" visible="visible" active="active">
+          <field id="9116" name="codename" title="Код валюты" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9117" name="nominal" title="Номинал" visible="visible" required="required">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="9118" name="rate" title="Курс" visible="visible" required="required">
+            <type name="Число с точкой" data-type="float"/>
+          </field>
+          <field id="9119" name="prefix" title="Префикс" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9120" name="suffix" title="Суффикс" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="779" guid="emarket-itemtype" title="Тип товара" parent-id="7" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="item_type">Тип товара</base>
+      <fieldgroups>
+        <group name="item_type_props" title="Свойства типа товара" visible="visible" active="active">
+          <field id="9101" name="class_name" title="Идентификатор типа товара" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="762" guid="emarket-discounttype" title="Тип скидки" parent-id="7" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="discount_type">Тип скидки</base>
+      <fieldgroups>
+        <group name="discount_type_props" title="Свойства типа скидки" visible="visible" active="active">
+          <field id="9075" name="codename" title="Строковой id" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9076" name="description" title="Описание" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="792" guid="96e388c0b3b7fd874b48621e850335a8f06ca58d" title="Справочник для поля \&quot;Модификатор цены\&quot;" parent-id="7" guide="guide" public="public" locked="locked">
+      <base/>
+      <fieldgroups/>
+    </type>
+    <type id="793" guid="6fe3dfe314684a658c1b19ca7a8e3abd29afe23e" title="Справочник для поля \&quot;Правила валидации\&quot;" parent-id="7" guide="guide" public="public" locked="locked">
+      <base/>
+      <fieldgroups/>
+    </type>
+    <type id="765" guid="emarket-discount" title="Скидка" parent-id="0" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="discount">Скидка</base>
+      <fieldgroups>
+        <group name="discount_props" title="Свойства скидки" visible="visible" active="active">
+          <field id="9079" name="discount_type_id" title="Тип скидки" visible="visible" guide-id="762" required="required">
+            <tip>Определяет область применения скидки</tip>
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9080" name="discount_modificator_id" title="Модификатор цены" visible="visible" guide-id="792">
+            <tip>Определяет, по какому принципу будет пересчитываться цена</tip>
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9081" name="discount_rules_id" title="Правила валидации" visible="visible" guide-id="793">
+            <tip>Определяют ограничения по применению скидки</tip>
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="8796" name="is_active" title="Активен" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="9097" name="description" title="Описание" visible="visible">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="757" guid="emarket-itemoption" title="Опции товара" parent-id="7" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="item_option">Опция товара</base>
+      <fieldgroups/>
+    </type>
+    <type id="756" guid="emarket-orderitem" title="Наименование в заказе" parent-id="7" guide="guide" locked="locked">
+      <base module="emarket" method="order_item">Наименование в заказе</base>
+      <fieldgroups>
+        <group name="item_props" title="Свойства наименования" visible="visible" active="active">
+          <field id="9072" name="item_amount" title="Количество единиц товара" visible="visible">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="9071" name="item_price" title="Стоимость единицы товара" visible="visible">
+            <type name="Число с точкой" data-type="float"/>
+          </field>
+          <field id="9109" name="item_total_original_price" title="Стоимость наименования без скидки" visible="visible">
+            <type name="Число с точкой" data-type="float"/>
+          </field>
+          <field id="9073" name="item_total_price" title="field-item_total_price" visible="visible">
+            <type name="Число с точкой" data-type="float"/>
+          </field>
+          <field id="9103" name="item_type_id" title="Тип товара" visible="visible" guide-id="779">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9104" name="item_link" title="Товар в магазине" visible="visible">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+          <field id="9105" name="item_discount_id" title="Скидка на наименование" visible="visible" guide-id="765">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+        <group name="item_optioned_props" title="Опции товара" visible="visible" active="active">
+          <field id="9070" name="options" title="Опции товара" visible="visible" guide-id="757">
+            <type name="Составное" data-type="optioned" multiple="multiple"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="751" guid="emarket-orderstatus" title="Статус заказа" parent-id="7" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="order_status">Статус заказа</base>
+      <fieldgroups>
+        <group name="order_status_props" title="Свойства статуса заказа" visible="visible" active="active">
+          <field id="9114" name="codename" title="Код статуса" visible="visible" guide-id="780" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9393" name="priority" title="Приоритет">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="829" guid="emarket-order-credit-status" title="Статусы кредита" parent-id="7" guide="guide" public="public">
+      <base/>
+      <fieldgroups>
+        <group name="credit_status_props" title="Свойства статуса кредита" visible="visible" active="active">
+          <field id="9114" name="codename" title="Код статуса" visible="visible" guide-id="780" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="827" guid="emarket-payment-signing-types" title="Способы подписания оферты" parent-id="7" guide="guide" public="public">
+      <base/>
+      <fieldgroups>
+        <group name="common" title="Общее" visible="visible" locked="locked" active="active">
+          <field id="9075" name="codename" title="Строковой id" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="787" guid="emarket-paymenttype" title="Типы способов оплаты" parent-id="7" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="payment_type">Тип способа доставки</base>
+      <fieldgroups>
+        <group name="payment_type_props" title="Свойства типа оплаты" visible="visible" active="active">
+          <field id="9130" name="class_name" title="Идентификатор типа оплаты" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9131" name="payment_type_id" title="Тип данных (id)" visible="visible">
+            <restriction id="5" name="objectType">Тип данных</restriction>
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="9238" name="payment_type_guid" title="Тип данных (GUID)" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="788" guid="emarket-payment" title="Способ оплаты" parent-id="0" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="payment">Способ оплаты</base>
+      <fieldgroups>
+        <group name="payment_props" title="Свойства способа оплаты" visible="visible" active="active">
+          <field id="9132" name="payment_type_id" title="Тип оплаты" visible="visible" guide-id="787" required="required">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="753" guid="emarket-orderpaymentstatus" title="Статус оплаты" parent-id="7" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="order_payment_status">Статус оплаты</base>
+      <fieldgroups>
+        <group name="order_status_props" title="Свойства статуса оплаты" visible="visible" active="active">
+          <field id="9114" name="codename" title="Код статуса" visible="visible" guide-id="780" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9398" name="priority" title="Приоритет">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="817" guid="emarket-legalperson" title="Юридическое лицо" parent-id="7" guide="guide" locked="locked">
+      <base module="emarket" method="legal_person">Юридическое лицо</base>
+      <fieldgroups>
+        <group name="general" title="Основное" visible="visible" active="active">
+          <field id="9250" name="contact_person" title="Контактное лицо" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9251" name="phone_number" title="Контактный телефон" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9252" name="fax" title="Факс" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9134" name="email" title="E-mail" visible="visible" required="required">
+            <restriction id="2" name="email">E-mail</restriction>
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9253" name="name" title="Наименование организации" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+        <group name="addresses" title="Адреса" visible="visible" active="active">
+          <field id="9254" name="legal_address" title="Юридический адрес" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9255" name="defacto_address" title="Фактический адрес" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9256" name="post_address" title="Почтовый адрес" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+        <group name="payment" title="Информация для оплаты" visible="visible" active="active">
+          <field id="9257" name="inn" title="field-TIN" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9258" name="account" title="Расчетный счет" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9259" name="bank" title="Наименование банка" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9260" name="bank_account" title="Кор. счет банка" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9261" name="bik" title="БИК" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9262" name="ogrn" title="field-ogrn" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9337" name="kpp" title="КПП" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="782" guid="emarket-deliverytype" title="Типы доставки" parent-id="7" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="delivery_type">Тип доставки</base>
+      <fieldgroups>
+        <group name="delivery_type_props" title="Свойства типа доставки" visible="visible" active="active">
+          <field id="9122" name="class_name" title="Идентификатор типа доставки" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9126" name="delivery_type_id" title="Тип данных (id)" visible="visible">
+            <restriction id="5" name="objectType">Тип данных</restriction>
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="9237" name="delivery_type_guid" title="Тип данных (GUID)" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="781" guid="emarket-delivery" title="Способ доставки" parent-id="0" guide="guide" locked="locked">
+      <base module="emarket" method="delivery">Способ доставки</base>
+      <fieldgroups>
+        <group name="delivery_description_props" title="Описание способа доставки" visible="visible" active="active">
+          <field id="9121" name="description" title="Описание доставки" visible="visible">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="9125" name="delivery_type_id" title="Тип доставки" guide-id="782" required="required">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="752" guid="emarket-orderdeliverystatus" title="Статус доставки" parent-id="7" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="order_delivery_status">Статус доставки</base>
+      <fieldgroups>
+        <group name="order_status_props" title="Свойства статуса доставки" visible="visible" active="active">
+          <field id="9142" name="codename" title="Код статуса" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9399" name="priority" title="Приоритет">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="838" guid="emarket-purchase-oneclick" title="Данные из формы &quot;Заказ в 1 клик&quot;" parent-id="7" guide="guide" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="personal" title="Персональные данные" visible="visible" locked="locked" active="active">
+          <field id="9442" name="lname" title="Фамилия" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9443" name="fname" title="Имя" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9444" name="father_name" title="Отчество" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9445" name="email" title="E-mail" visible="visible">
+            <restriction id="2" name="email">E-mail</restriction>
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9446" name="phone" title="Телефон" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="755" guid="emarket-order" title="Заказ" parent-id="0" guide="guide" locked="locked">
+      <base module="emarket" method="order">Заказ в магазине</base>
+      <fieldgroups>
+        <group name="order_props" title="Свойства заказа" visible="visible" active="active">
+          <field id="9064" name="order_items" title="Наименования заказа" visible="visible" guide-id="756">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="9133" name="number" title="Номер заказа" visible="visible">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="9344" name="social_order_id" title="Номер заказа в социальной сети" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="9422" name="yandex_order_id" title="Номер заказа в Яндекс.Маркет" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="9074" name="customer_id" title="Покупатель" visible="visible" guide-id="4">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9065" name="domain_id" title="Домен" visible="visible">
+            <restriction id="4" name="systemDomain">Домен системы</restriction>
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="9066" name="manager_id" title="Ответственный менеджер" visible="visible" guide-id="4">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9067" name="status_id" title="Статус заказа" visible="visible" guide-id="751">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9108" name="total_original_price" title="Стоимость заказа без скидки" visible="visible">
+            <type name="Число с точкой" data-type="float"/>
+          </field>
+          <field id="9106" name="total_price" title="Стоимость заказа" visible="visible">
+            <type name="Число с точкой" data-type="float"/>
+          </field>
+          <field id="9107" name="total_amount" title="Количество товаров" visible="visible">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="9169" name="status_change_date" title="Дата последнего изменения статуса заказа" visible="visible">
+            <tip>Выставляется автоматически, когда происходит изменение статуса заказа</tip>
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9177" name="order_date" title="Дата оформления заказа" visible="visible">
+            <tip>Дата, когда заказ был оформлен покупателем</tip>
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9195" name="is_reserved" title="Товары зарезервированы" system="system">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="order_credit_props" title="Свойства кредита" visible="visible" active="active">
+          <field id="9392" name="credit-status" title="Статус кредита" visible="visible" filterable="filterable" guide-id="829">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9383" name="contractsigningdeadline" title="Крайний срок подписания оферты" visible="visible" filterable="filterable">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9384" name="contractdeliverydeadline" title="Срок доставки оригиналов документов" visible="visible" filterable="filterable">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9385" name="banksigningappointmenttime" title="Встреча с представителем банка" visible="visible" filterable="filterable">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9386" name="isconfirmed" title="Подтверждение" visible="visible" filterable="filterable">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="9387" name="signingtype" title="Способ подписания оферты" visible="visible" filterable="filterable" guide-id="827">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9388" name="beingprocessed" title="В обработке" visible="visible" filterable="filterable" system="system">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="statistic_info" title="Статистическая информация" visible="visible" active="active">
+          <field id="9359" name="http_referer" title="Адрес, с которого пришел пользователь" visible="visible">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="9373" name="http_target" title="Адрес, на который пришел пользователь" visible="visible">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="9410" name="source_domain" title="Источник перехода" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9411" name="utm_medium" title="Тип трафика" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9412" name="utm_term" title="Ключевые слова" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9413" name="utm_campaign" title="Рекламная кампания" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9414" name="utm_content" title="Тип рекламной кампании" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9415" name="order_create_date" title="Дата создания заказа" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+        </group>
+        <group name="order_payment_props" title="Свойства оплаты заказа" visible="visible" active="active">
+          <field id="9129" name="payment_id" title="Способ оплаты" visible="visible" guide-id="788">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9068" name="payment_status_id" title="Статус оплаты" visible="visible" guide-id="753">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9191" name="payment_date" title="Дата оплаты" visible="visible">
+            <tip>Дата успешной оплаты заказа</tip>
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9192" name="payment_document_num" title="Номер платежного документа" visible="visible">
+            <tip>Заполняется системой автоматически</tip>
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9299" name="legal_person" title="Юридическое лицо" visible="visible" locked="locked" guide-id="817">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+        <group name="order_delivery_props" title="Свойства доставки заказа" visible="visible" active="active">
+          <field id="9128" name="delivery_id" title="Способ доставки" visible="visible" guide-id="781">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9069" name="delivery_status_id" title="Статус доставки" visible="visible" guide-id="752">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9186" name="delivery_address" title="Адрес доставки" visible="visible" guide-id="803">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9193" name="delivery_allow_date" title="Дата разрешения доставки" visible="visible">
+            <tip>Заполняется системой автоматически, когда возможна доставка и заказ успешно оплачен</tip>
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9197" name="delivery_price" title="Стоимость доставки" visible="visible">
+            <type name="Число с точкой" data-type="float"/>
+          </field>
+        </group>
+        <group name="order_discount_props" title="Свойства скидки на заказ" visible="visible" active="active">
+          <field id="9110" name="order_discount_id" title="Скидка на заказ" visible="visible" guide-id="765">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9377" name="bonus" title="Потраченные бонусы" locked="locked">
+            <type name="Число с точкой" data-type="float"/>
+          </field>
+        </group>
+        <group name="integration_date" title="Свойства для интеграции с 1С" visible="visible" active="active">
+          <field id="9168" name="need_export" title="Выгружать заказ в 1С при следующем сеансе связи" visible="visible">
+            <tip>Выставляется системой автоматически, когда заказ необходимо выгрузить в 1С</tip>
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="purchase_one_click" title="Заказ в 1 клик" visible="visible" active="active">
+          <field id="9447" name="purchaser_one_click" title="Покупатель" visible="visible" locked="locked" guide-id="838">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="825" guid="filemanagers" title="Файловые менеджеры" parent-id="7" guide="guide" public="public" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="description" title="Свойства" visible="visible" locked="locked" active="active">
+          <field id="9361" name="fm_prefix" title="Префикс" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="4" guid="users-user" title="Пользователь" parent-id="0" guide="guide" locked="locked">
+      <base module="users" method="user">Пользователи</base>
+      <fieldgroups>
+        <group name="idetntify_data" title="Идентификационные данные" locked="locked" active="active" visible="0">
+          <field id="45" name="login" title="Логин" visible="visible" locked="locked" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="46" name="password" title="Пароль" visible="visible" locked="locked">
+            <type name="Пароль" data-type="password"/>
+          </field>
+          <field id="12" name="e-mail" title="E-mail" visible="visible" locked="locked" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="53" name="groups" title="Группы пользователей" locked="locked" guide-id="6">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="8734" name="activate_code" title="Код активации" locked="locked" system="system">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9360" name="loginza" title="Провайдер регистрации (через Loginza)" visible="visible" locked="locked">
+            <tip>Адрес сервиса</tip>
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="8735" name="is_activated" title="Активирован" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="8967" name="last_request_time" title="Время последнего обращения" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8950" name="subscribed_pages" title="Подписки на изменения" locked="locked" system="system">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+          <field id="8968" name="rated_pages" title="Рейтингованные страницы" locked="locked" system="system">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+          <field id="8951" name="is_online" title="Пользователь on-line" locked="locked" system="system">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="8969" name="messages_count" title="Количество сообщений" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+        <group name="more_info" title="Дополнительная информация" visible="visible" active="active">
+          <field id="5569" name="orders_refs" title="Заказы" locked="locked" system="system">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="8720" name="delivery_addresses" title="Адреса доставки" visible="visible" locked="locked" guide-id="803" system="system">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="8901" name="user_dock" title="Пользовательская панель" locked="locked" system="system">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9049" name="preffered_currency" title="Предпочитаемая валюта" locked="locked" guide-id="780">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9050" name="user_settings_data" title="Настройки пользователя" locked="locked" system="system">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="9374" name="last_order" title="Последний заказ" locked="locked" guide-id="755" system="system">
+            <type name="Составное" data-type="optioned" multiple="multiple"/>
+          </field>
+          <field id="9375" name="bonus" title="Зачисленные бонусы" locked="locked">
+            <type name="Число с точкой" data-type="float"/>
+          </field>
+          <field id="9300" name="legal_persons" title="Юридические лица" visible="visible" locked="locked" guide-id="817" system="system">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="9376" name="spent_bonus" title="Потраченные бонусы" locked="locked">
+            <type name="Число с точкой" data-type="float"/>
+          </field>
+          <field id="9362" name="filemanager" title="Файловый менеджер" locked="locked" guide-id="825">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9368" name="filemanager_directory" title="Доступные директории (для файлового менеджера elFinder)" locked="locked" guide-id="825">
+            <tip>Список доступных пользователю директорий. В качестве разделителя используется запятая - например: /image/cms, /files.</tip>
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9379" name="appended_file_extensions" title="Дополнительные разрешенные типы файлов" locked="locked">
+            <tip>Список дополнительных расширений файлов, которые пользователь может загружать на сервер. В качестве разделителя используется запятая - например: cdr, mid, midi.</tip>
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9372" name="register_date" title="Дата регистрации">
+            <type name="Дата" data-type="date"/>
+          </field>
+        </group>
+        <group name="short_info" title="Персональная информация" visible="visible" active="active">
+          <field id="11" name="lname" title="Фамилия" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9" name="fname" title="Имя" visible="visible" locked="locked" required="required">
+            <tip>Это поле содержит Имя пользователя. Оно отображается в характеристиках пользователя и может быть изменено самим пользователем.</tip>
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="10" name="father_name" title="Отчество" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+        <group name="delivery" title="Доставка" visible="visible" active="active"/>
+        <group name="statistic_info" title="Статистическая информация" visible="visible" active="active">
+          <field id="9370" name="referer" title="Адрес, с которого пришел пользователь">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="9371" name="target" title="Адрес, на который пришел пользователь">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="689" guid="content-ticket" title="Заметка" parent-id="0" locked="locked">
+      <base module="content" method="ticket">Заметка на сайте</base>
+      <fieldgroups>
+        <group name="props" title="Свойства" visible="visible" active="active">
+          <field id="8875" name="user_id" title="Владелец" visible="visible" locked="locked" guide-id="4">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="8876" name="message" title="Сообщение" visible="visible" locked="locked" indexable="indexable">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="8877" name="x" title="X" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8878" name="y" title="Y" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8880" name="width" title="Ширина" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8881" name="height" title="Высота" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8879" name="url" title="Url страницы" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+  </types>
+  <objects/>
+  <pages/>
+  <relations>
+    <relation type-id="{root-pages-type}" field-name="publish_status">
+      <guide id="745"/>
+    </relation>
+    <relation type-id="10" field-name="publish_status">
+      <guide id="745"/>
+    </relation>
+    <relation type-id="803" field-name="country">
+      <guide id="693"/>
+    </relation>
+    <relation type-id="765" field-name="discount_type_id">
+      <guide id="762"/>
+    </relation>
+    <relation type-id="765" field-name="discount_modificator_id">
+      <guide id="792"/>
+    </relation>
+    <relation type-id="765" field-name="discount_rules_id">
+      <guide id="793"/>
+    </relation>
+    <relation type-id="756" field-name="item_type_id">
+      <guide id="779"/>
+    </relation>
+    <relation type-id="756" field-name="item_discount_id">
+      <guide id="765"/>
+    </relation>
+    <relation type-id="756" field-name="options">
+      <guide id="757"/>
+    </relation>
+    <relation type-id="751" field-name="codename">
+      <guide id="780"/>
+    </relation>
+    <relation type-id="829" field-name="codename">
+      <guide id="780"/>
+    </relation>
+    <relation type-id="788" field-name="payment_type_id">
+      <guide id="787"/>
+    </relation>
+    <relation type-id="753" field-name="codename">
+      <guide id="780"/>
+    </relation>
+    <relation type-id="781" field-name="delivery_type_id">
+      <guide id="782"/>
+    </relation>
+    <relation type-id="755" field-name="order_items">
+      <guide id="756"/>
+    </relation>
+    <relation type-id="755" field-name="customer_id">
+      <guide id="4"/>
+    </relation>
+    <relation type-id="755" field-name="manager_id">
+      <guide id="4"/>
+    </relation>
+    <relation type-id="755" field-name="status_id">
+      <guide id="751"/>
+    </relation>
+    <relation type-id="755" field-name="credit-status">
+      <guide id="829"/>
+    </relation>
+    <relation type-id="755" field-name="signingtype">
+      <guide id="827"/>
+    </relation>
+    <relation type-id="755" field-name="payment_id">
+      <guide id="788"/>
+    </relation>
+    <relation type-id="755" field-name="payment_status_id">
+      <guide id="753"/>
+    </relation>
+    <relation type-id="755" field-name="legal_person">
+      <guide id="817"/>
+    </relation>
+    <relation type-id="755" field-name="delivery_id">
+      <guide id="781"/>
+    </relation>
+    <relation type-id="755" field-name="delivery_status_id">
+      <guide id="752"/>
+    </relation>
+    <relation type-id="755" field-name="delivery_address">
+      <guide id="803"/>
+    </relation>
+    <relation type-id="755" field-name="order_discount_id">
+      <guide id="765"/>
+    </relation>
+    <relation type-id="755" field-name="purchaser_one_click">
+      <guide id="838"/>
+    </relation>
+    <relation type-id="4" field-name="groups">
+      <guide id="6"/>
+    </relation>
+    <relation type-id="4" field-name="delivery_addresses">
+      <guide id="803"/>
+    </relation>
+    <relation type-id="4" field-name="preffered_currency">
+      <guide id="780"/>
+    </relation>
+    <relation type-id="4" field-name="last_order">
+      <guide id="755"/>
+    </relation>
+    <relation type-id="4" field-name="legal_persons">
+      <guide id="817"/>
+    </relation>
+    <relation type-id="4" field-name="filemanager">
+      <guide id="825"/>
+    </relation>
+    <relation type-id="4" field-name="filemanager_directory">
+      <guide id="825"/>
+    </relation>
+    <relation type-id="689" field-name="user_id">
+      <guide id="4"/>
+    </relation>
+  </relations>
+  <options/>
+  <restrictions>
+    <restriction id="4" prefix="systemDomain" title="Домен системы" field-type="int" is-multiple="">
+      <field field-name="domain_id" type-id="755"/>
+    </restriction>
+    <restriction id="5" prefix="objectType" title="Тип данных" field-type="int" is-multiple="">
+      <field field-name="payment_type_id" type-id="787"/>
+      <field field-name="delivery_type_id" type-id="782"/>
+    </restriction>
+    <restriction id="2" prefix="email" title="E-mail" field-type="string" is-multiple="">
+      <field field-name="email" type-id="817"/>
+      <field field-name="email" type-id="838"/>
+    </restriction>
+  </restrictions>
+  <permissions/>
+  <hierarchy/>
+</umidump>
